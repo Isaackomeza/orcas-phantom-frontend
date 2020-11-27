@@ -27,7 +27,7 @@ describe("Tests if Admin Page renders and work as expected", () => {
     fireEvent.click(getByTestId("routes"));
     fireEvent.click(getByTestId("bus"));
     fireEvent.click(getByTestId("bus-stops"));
-    fireEvent.click(getByTestId("users"));
+    fireEvent.click(getByTestId("users-link"));
     fireEvent.click(getByTestId("settings"));
   });
 
